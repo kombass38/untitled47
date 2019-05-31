@@ -182,7 +182,7 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
 									</div>
 								<?elseif($arResult["OFFERS"] && $arParams["TYPE_SKU"] === 'TYPE_1'):?>
 									<div data-item="" data-iblock="<?=$arResult["IBLOCK_ID"]?>" data-href="<?=$arResult["COMPARE_URL"]?>" class="compare_item text <?=$arParams["TYPE_SKU"];?>">
-										<span class="ff value" title="<?=GetMessage('CT_BCE_CATALOG_COMPARE')?>"><i></i></span>
+										<span class="value" title="<?=GetMessage('CT_BCE_CATALOG_COMPARE')?>"><i></i></span>
 										<span class="value added" title="<?=GetMessage('CT_BCE_CATALOG_COMPARE_ADDED')?>"><i></i></span>
 									</div>
 								<?endif;?>
@@ -231,7 +231,7 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
 
 
                 .slides > ul > li {
-                    flex:1 301px;
+                    flex:1 300px;
                     margin: 0 27px!important;
                 }
 
@@ -266,6 +266,8 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
                     animation-timing-function: ease-in;
                     -webkit-animation-iteration-count: 1;
                     animation-iteration-count: 1;*/
+
+                    /*test*/
                 }
 
                 @-webkit-keyframes rotatedScalingSlideIn {
