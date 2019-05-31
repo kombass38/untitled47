@@ -231,7 +231,7 @@ setViewedProduct(<?=$arResult['ID']?>, <?=CUtil::PhpToJSObject($arViewedData, fa
 
 
                 .slides > ul > li {
-                    flex:1 300px;
+                    flex:1 301px;
                     margin: 0 27px!important;
                 }
 
